@@ -1,0 +1,7 @@
+# Python bytecode & caches (also covered by repo root .gitignore)
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd

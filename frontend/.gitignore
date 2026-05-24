@@ -1,0 +1,3 @@
+# If any Python tooling runs here (scripts, tooling)
+__pycache__/
+**/__pycache__/

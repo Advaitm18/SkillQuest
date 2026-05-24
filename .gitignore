@@ -1,0 +1,56 @@
+# ── Environment & secrets (keep *.example tracked) ────────────────────────────
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.*
+!**/.env.example
+
+# ── Python bytecode & caches ──────────────────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+.Python
+.pytest_cache/
+**/.pytest_cache/
+.mypy_cache/
+**/.mypy_cache/
+.ruff_cache/
+**/.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ── Python packaging / build artifacts ───────────────────────────────────────
+*.egg
+*.egg-info/
+*.eggs/
+.eggs/
+pip-wheel-metadata/
+build/
+develop-eggs/
+downloads/
+sdist/
+wheels/
+*.manifest
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+backend/.venv/
+backend/venv/
+
+# ── Node / frontend ─────────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+
+# Optional: local SQLite DB (uncomment to ignore)
+# *.db
