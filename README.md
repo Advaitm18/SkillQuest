@@ -5,18 +5,18 @@
 
 ---
 
-## ✨ Core Features
+### ✨ Core Features
 
-### 🎯 Adaptive Learning
+#### 🎯 Adaptive Learning
 Questions dynamically adjust across four difficulty tiers — easy → intermediate → pro → mastery — based on your performance and response behavior.
 
-### 🏆 Gamification Engine
+#### 🏆 Gamification Engine
 Earn XP, maintain streaks, level up, unlock achievements, and climb the leaderboard. Skill tree nodes unlock progressively per domain.
 
-### 📊 Learning Analytics
+#### 📊 Learning Analytics
 Per-topic accuracy, attempt summaries, domain-level success rates, and AI-powered next-topic recommendations.
 
-### 🤖 Live AI Interviewer
+#### 🤖 Live AI Interviewer
 A 3-tier fallback interview experience:
 1. **D-ID WebRTC Avatar** — realtime streaming with SDP/ICE negotiation
 2. **ElevenLabs 2D Avatar TTS** — activated when D-ID is unavailable
@@ -25,7 +25,7 @@ Speech-to-text input enables a real interview feel.
 
 ---
 
-## 👥 Who Is It For?
+### 👥 Who Is It For?
 
 | Audience | Use Case |
 |---|---|
@@ -37,9 +37,9 @@ Speech-to-text input enables a real interview feel.
 
 ---
 
-## 🛠 Technical Stack
+### 🛠 Technical Stack
 
-### Frontend
+#### Frontend
 | Technology | Role |
 |---|---|
 | React 18 + TypeScript | UI Layer |
@@ -50,7 +50,7 @@ Speech-to-text input enables a real interview feel.
 | Recharts | Analytics Charts |
 | Axios | HTTP Client |
 
-### Backend
+#### Backend
 | Technology | Role |
 |---|---|
 | FastAPI | API Framework |
@@ -63,7 +63,7 @@ Speech-to-text input enables a real interview feel.
 
 ---
 
-## 🤖 AI & Media Integrations
+### 🤖 AI & Media Integrations
 
 | Service | Role |
 |---|---|
@@ -74,7 +74,7 @@ Speech-to-text input enables a real interview feel.
 
 ---
 
-## 🔄 Quiz Flow
+### 🔄 Quiz Flow
 
 ```
 User visits /quiz/:topic
@@ -93,7 +93,7 @@ Next Question (adaptive difficulty) OR Rapid-Fire Complete → AI Interview
 
 ---
 
-## 🎤 AI Interview Flow
+### 🎤 AI Interview Flow
 
 ```
 Rapid-Fire Complete → Trigger Interviewer
@@ -114,7 +114,7 @@ Session Complete → Analytics Updated → XP Awarded 🎉
 
 ---
 
-## 🏗 System Architecture
+### 🏗 System Architecture
 
 ```
 Browser / React (Vite · MUI · Zustand)
@@ -138,6 +138,3 @@ API Routes:
   /api/skills     → Skill Tree + Progress
   /api/users      → Profile + Analytics
 ```
-
-
-*SkillQuest — Level Up Your Journey* 🚀
